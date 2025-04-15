@@ -35,7 +35,7 @@ public class RabbitMQListener : BackgroundService
 
             await _channel.QueueDeclareAsync(
                 queue: _configuration["RabbitMQ:Queue"],
-                durable: true,
+                durable: false,
                 exclusive: false,
                 autoDelete: false,
                 arguments: null,
@@ -48,17 +48,19 @@ public class RabbitMQListener : BackgroundService
             {
                 var body = ea.Body.ToArray();
                 var json = Encoding.UTF8.GetString(body);
-                var dto = JsonSerializer.Deserialize<BankAccount>(json);
+                var dto = JsonSerializer.Deserialize<Transaction>(json);
 
                 await Task.CompletedTask;
             };
 
-            await _channel.BasicConsumeAsync(
+
+            var result = await _channel.BasicConsumeAsync(
                 queue: _configuration["RabbitMQ:Queue"],
                 autoAck: true,
                 consumer: consumer,
                 cancellationToken: stoppingToken
             );
+
 
             await Task.Delay(Timeout.Infinite, stoppingToken);
         }

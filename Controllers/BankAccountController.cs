@@ -1,12 +1,13 @@
 using AutoMapper;
+using dotnet_pubsub_rabitmq.Infra;
 using dotnet_pubsub_rabitmq.Models;
 using dotnet_pubsub_rabitmq.Queue;
-using dotnet_pubsub_rabitmq.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace dotnet_pubsub_rabitmq.Controllers
 {
     [ApiController]
+    [Route("notify")]
     public class BankAccountController : ControllerBase
     {
         private readonly RabbitMQPublisher _publisher;
