@@ -1,0 +1,122 @@
+## Build results
+[Bb]in/
+[Oo]bj/
+
+## User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.swp
+
+## Visual Studio Code
+.vscode/
+.history/
+
+## Rider
+.idea/
+
+## ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+## DotCover
+*.dotCover
+
+## Logs
+*.log
+logs/
+Log/
+
+## Temporary files
+*.tmp
+*.bak
+*.old
+*.orig
+*.cache
+*.pid
+*.sdf
+*.dbmdl
+
+## Database files
+*.mdf
+*.ldf
+*.ndf
+
+## Entity Framework
+Migrations/
+
+## Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+## Build artifacts
+*.dll
+*.exe
+*.app
+*.pdb
+*.cache
+*.zip
+*.tar.gz
+*.nupkg
+*.snupkg
+
+## NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore local NuGet config
+nuget.config
+
+## Azure
+.publish/
+*.azurePubxml
+*.azurePubxml.user
+ServiceConfiguration.*
+ServiceDefinition.*
+
+## Static analysis and reporting
+*.ruleset
+*.editorconfig
+.stylecop
+*.sarif
+
+## Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+## Backup & Report Files from converting or migrating
+_UpgradeReport_Files/
+UpgradeLog*.XML
+UpgradeLog*.htm
+*.Backup.cs
+
+## IIS Express
+.vs/
+*.vspscc
+*.vssscc
+iisexpress/
+
+## Other
+*.DS_Store
+Thumbs.db
+*.ncrunch*
+*.localhistory
+*.orig
+*.rej
+
+## Docker
+docker-compose.override.yml
+.env
+
+## Secrets (ex: .NET User Secrets)
+secrets.json
+*.secret.json
+appsettings.*.local.json
