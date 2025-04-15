@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "eoUKvZF2m5ZewFFd/lv1/qGKKqqYvf2MjXobpRdJHrs=",
+  "Source": "dotnet-pubsub-rabitmq",
+  "BasePath": "_content/dotnet-pubsub-rabitmq",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

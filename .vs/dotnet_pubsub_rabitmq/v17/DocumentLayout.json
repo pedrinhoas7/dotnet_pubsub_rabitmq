@@ -1,0 +1,194 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Source\\dotnet_pubsub_rabitmq\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{443E2DB9-9B71-4DF1-8855-A193933A6BF2}|dotnet_pubsub_rabitmq.csproj|c:\\source\\dotnet_pubsub_rabitmq\\controllers\\bankaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{443E2DB9-9B71-4DF1-8855-A193933A6BF2}|dotnet_pubsub_rabitmq.csproj|solutionrelative:controllers\\bankaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{443E2DB9-9B71-4DF1-8855-A193933A6BF2}|dotnet_pubsub_rabitmq.csproj|c:\\source\\dotnet_pubsub_rabitmq\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{443E2DB9-9B71-4DF1-8855-A193933A6BF2}|dotnet_pubsub_rabitmq.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{443E2DB9-9B71-4DF1-8855-A193933A6BF2}|dotnet_pubsub_rabitmq.csproj|c:\\source\\dotnet_pubsub_rabitmq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{443E2DB9-9B71-4DF1-8855-A193933A6BF2}|dotnet_pubsub_rabitmq.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{443E2DB9-9B71-4DF1-8855-A193933A6BF2}|dotnet_pubsub_rabitmq.csproj|c:\\source\\dotnet_pubsub_rabitmq\\dotnet_pubsub_rabitmq.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{443E2DB9-9B71-4DF1-8855-A193933A6BF2}|dotnet_pubsub_rabitmq.csproj|solutionrelative:dotnet_pubsub_rabitmq.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{443E2DB9-9B71-4DF1-8855-A193933A6BF2}|dotnet_pubsub_rabitmq.csproj|c:\\source\\dotnet_pubsub_rabitmq\\dotnet_pubsub_rabitmq.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{443E2DB9-9B71-4DF1-8855-A193933A6BF2}|dotnet_pubsub_rabitmq.csproj|solutionrelative:dotnet_pubsub_rabitmq.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{443E2DB9-9B71-4DF1-8855-A193933A6BF2}|dotnet_pubsub_rabitmq.csproj|c:\\source\\dotnet_pubsub_rabitmq\\models\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{443E2DB9-9B71-4DF1-8855-A193933A6BF2}|dotnet_pubsub_rabitmq.csproj|solutionrelative:models\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{443E2DB9-9B71-4DF1-8855-A193933A6BF2}|dotnet_pubsub_rabitmq.csproj|c:\\source\\dotnet_pubsub_rabitmq\\queue\\rabbitmqpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{443E2DB9-9B71-4DF1-8855-A193933A6BF2}|dotnet_pubsub_rabitmq.csproj|solutionrelative:queue\\rabbitmqpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{443E2DB9-9B71-4DF1-8855-A193933A6BF2}|dotnet_pubsub_rabitmq.csproj|c:\\source\\dotnet_pubsub_rabitmq\\queue\\rabbitmqlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{443E2DB9-9B71-4DF1-8855-A193933A6BF2}|dotnet_pubsub_rabitmq.csproj|solutionrelative:queue\\rabbitmqlistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{443E2DB9-9B71-4DF1-8855-A193933A6BF2}|dotnet_pubsub_rabitmq.csproj|c:\\source\\dotnet_pubsub_rabitmq\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{443E2DB9-9B71-4DF1-8855-A193933A6BF2}|dotnet_pubsub_rabitmq.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{443E2DB9-9B71-4DF1-8855-A193933A6BF2}|dotnet_pubsub_rabitmq.csproj|c:\\source\\dotnet_pubsub_rabitmq\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{443E2DB9-9B71-4DF1-8855-A193933A6BF2}|dotnet_pubsub_rabitmq.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BankAccount.cs",
+              "DocumentMoniker": "C:\\Source\\dotnet_pubsub_rabitmq\\Models\\BankAccount.cs",
+              "RelativeDocumentMoniker": "Models\\BankAccount.cs",
+              "ToolTip": "C:\\Source\\dotnet_pubsub_rabitmq\\Models\\BankAccount.cs",
+              "RelativeToolTip": "Models\\BankAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T01:14:06.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Source\\dotnet_pubsub_rabitmq\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Source\\dotnet_pubsub_rabitmq\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T00:30:22.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BankAccountController.cs",
+              "DocumentMoniker": "C:\\Source\\dotnet_pubsub_rabitmq\\Controllers\\BankAccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BankAccountController.cs",
+              "ToolTip": "C:\\Source\\dotnet_pubsub_rabitmq\\Controllers\\BankAccountController.cs",
+              "RelativeToolTip": "Controllers\\BankAccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T00:40:24.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dotnet_pubsub_rabitmq.csproj",
+              "DocumentMoniker": "C:\\Source\\dotnet_pubsub_rabitmq\\dotnet_pubsub_rabitmq.csproj",
+              "RelativeDocumentMoniker": "dotnet_pubsub_rabitmq.csproj",
+              "ToolTip": "C:\\Source\\dotnet_pubsub_rabitmq\\dotnet_pubsub_rabitmq.csproj",
+              "RelativeToolTip": "dotnet_pubsub_rabitmq.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-15T01:37:48.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RabbitMQPublisher.cs",
+              "DocumentMoniker": "C:\\Source\\dotnet_pubsub_rabitmq\\Queue\\RabbitMQPublisher.cs",
+              "RelativeDocumentMoniker": "Queue\\RabbitMQPublisher.cs",
+              "ToolTip": "C:\\Source\\dotnet_pubsub_rabitmq\\Queue\\RabbitMQPublisher.cs",
+              "RelativeToolTip": "Queue\\RabbitMQPublisher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T00:30:19.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RabbitMQListener.cs",
+              "DocumentMoniker": "C:\\Source\\dotnet_pubsub_rabitmq\\Queue\\RabbitMQListener.cs",
+              "RelativeDocumentMoniker": "Queue\\RabbitMQListener.cs",
+              "ToolTip": "C:\\Source\\dotnet_pubsub_rabitmq\\Queue\\RabbitMQListener.cs",
+              "RelativeToolTip": "Queue\\RabbitMQListener.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T23:48:31.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Source\\dotnet_pubsub_rabitmq\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Source\\dotnet_pubsub_rabitmq\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-15T00:26:45.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Source\\dotnet_pubsub_rabitmq\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Source\\dotnet_pubsub_rabitmq\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-14T23:41:51.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Source\\dotnet_pubsub_rabitmq\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Source\\dotnet_pubsub_rabitmq\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-15T00:26:27.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dotnet_pubsub_rabitmq",
+              "DocumentMoniker": "C:\\Source\\dotnet_pubsub_rabitmq\\dotnet_pubsub_rabitmq.csproj",
+              "RelativeDocumentMoniker": "dotnet_pubsub_rabitmq.csproj",
+              "ToolTip": "C:\\Source\\dotnet_pubsub_rabitmq\\dotnet_pubsub_rabitmq.csproj",
+              "RelativeToolTip": "dotnet_pubsub_rabitmq.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-14T23:41:49.667Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
