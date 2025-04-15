@@ -1,6 +1,6 @@
 using System.Text;
 using System.Text.Json;
-using dotnet_pubsub_rabitmq.Dtos;
+using dotnet_pubsub_rabitmq.Models;
 using RabbitMQ.Client;
 
 namespace dotnet_pubsub_rabitmq.Queue;
@@ -14,7 +14,7 @@ public class RabbitMQPublisher
         _configuration = configuration;
     }
 
-    public async Task PublishAsync(BankAccountDTO dto, CancellationToken cancellationToken = default)
+    public async Task PublishAsync(BankAccount dto, CancellationToken cancellationToken = default)
     {
         var factory = new ConnectionFactory
         {

@@ -1,6 +1,6 @@
 using System.Text;
 using System.Text.Json;
-using dotnet_pubsub_rabitmq.Dtos;
+using dotnet_pubsub_rabitmq.Models;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using RabbitMQ.Client.Exceptions;
@@ -48,7 +48,7 @@ public class RabbitMQListener : BackgroundService
             {
                 var body = ea.Body.ToArray();
                 var json = Encoding.UTF8.GetString(body);
-                var dto = JsonSerializer.Deserialize<BankAccountDTO>(json);
+                var dto = JsonSerializer.Deserialize<BankAccount>(json);
 
                 await Task.CompletedTask;
             };

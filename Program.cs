@@ -1,5 +1,7 @@
 using dotnet_pubsub_rabitmq.Queue;
 using dotnet_pubsub_rabitmq.Services;
+using AutoMapper;
+using dotnet_pubsub_rabitmq.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
