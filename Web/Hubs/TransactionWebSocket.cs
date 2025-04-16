@@ -26,38 +26,28 @@ public class TransactionWebSocket : Hub
             var email = httpContext.Request.Query["email"];
             var document = httpContext.Request.Query["document"];
 
-            Console.WriteLine($"Documento recebido na conexão: {document}");
-            Console.WriteLine($"Email recebido na conexão: {email}");
-
-            // Verificar se o email foi informado
             if (string.IsNullOrEmpty(email))
             {
                 await Clients.Caller.SendAsync("Error", "Email não informado.");
                 return;
             }
 
-            // Verificar se o document foi informado
             if (string.IsNullOrEmpty(document))
             {
                 await Clients.Caller.SendAsync("Error", "Documento não informado.");
                 return;
             }
 
-            // Verificar se ConnectionId não é nulo
             if (Context.ConnectionId == null)
             {
                 await Clients.Caller.SendAsync("Error", "ConnectionId não informado.");
                 return;
             }
 
-            // Armazenar o email no Context.Items
             Context.Items["email"] = email;
             Context.Items["document"] = document;
-
-            // Adicionar o documento ao dicionário ConnectedUsers para controle
             ConnectedUsers[Context.ConnectionId] = document;
 
-            // Atualizar a conta com o email
             var account = await _accountService.GetByDocument(document);
             if (account != null)
             {
@@ -82,7 +72,6 @@ public class TransactionWebSocket : Hub
 
     public async Task GetAccountDetails()
     {
-        // Recuperar o email e documento de Context.Items
         if (!Context.Items.TryGetValue("email", out var email) || !Context.Items.TryGetValue("document", out var document))
         {
             await Clients.Caller.SendAsync("Error", "Email ou Documento não informado.");
@@ -95,7 +84,7 @@ public class TransactionWebSocket : Hub
             account = new BankAccount
             {
                 Document = document.ToString(),
-                Owner = email.ToString(), // Usar o email, se presente
+                Owner = email.ToString(),
                 Balance = 0
             };
             await _accountService.CreateAsync(account);
@@ -115,7 +104,6 @@ public class TransactionWebSocket : Hub
 
     public async Task ProcessTransaction(string type, decimal amount, string description)
     {
-        // Recuperar o email e documento de Context.Items
         if (!Context.Items.TryGetValue("email", out var email) || !Context.Items.TryGetValue("document", out var document))
         {
             await Clients.Caller.SendAsync("Error", "Email ou Documento não informado.");
@@ -128,7 +116,7 @@ public class TransactionWebSocket : Hub
             account = new BankAccount
             {
                 Document = document.ToString(),
-                Owner = email.ToString(), // Se o email estiver vazio, usa "Desconhecido"
+                Owner = email.ToString(),
                 Balance = 0
             };
             await _accountService.CreateAsync(account);
@@ -140,14 +128,12 @@ public class TransactionWebSocket : Hub
             return;
         }
 
-        // Atualiza saldo
         account.Balance = type == "deposito"
             ? account.Balance + amount
             : account.Balance - amount;
 
         await _accountService.UpdateAsync(account);
 
-        // Cria transação
         var transaction = new Transaction
         {
             AccountId = account.Id!,
@@ -160,7 +146,6 @@ public class TransactionWebSocket : Hub
 
         await _transactionService.CreateAsync(transaction);
 
-        // Envia dados atualizados ao cliente
         var allTransactions = await _transactionService.GetAllAsync();
         var userTransactions = allTransactions
             .Where(e => e.AccountId == account.Id)
