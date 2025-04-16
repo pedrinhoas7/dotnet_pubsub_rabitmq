@@ -2,7 +2,7 @@
 using MongoDB.Bson.Serialization.Attributes;
 using MongoDB.Bson;
 
-namespace signalr_backend.Models
+namespace signalr_backend.Domain.Entities
 {
     public class BankAccount
     {

@@ -1,6 +1,6 @@
 
+using dotnet_pubsub_rabitmq.Web.Hubs;
 using signalr_backend.Infra;
-using signalr_backend.WebSocket;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddSignalR();

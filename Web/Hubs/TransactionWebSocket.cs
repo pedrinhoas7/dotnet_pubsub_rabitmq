@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.SignalR;
+using signalr_backend.Domain.Entities;
 using signalr_backend.Infra;
-using signalr_backend.Models;
 
-namespace signalr_backend.WebSocket;
+namespace dotnet_pubsub_rabitmq.Web.Hubs;
 
 public class TransactionWebSocket : Hub
 {
@@ -128,7 +128,7 @@ public class TransactionWebSocket : Hub
             account = new BankAccount
             {
                 Document = document.ToString(),
-                Owner =  email.ToString(), // Se o email estiver vazio, usa "Desconhecido"
+                Owner = email.ToString(), // Se o email estiver vazio, usa "Desconhecido"
                 Balance = 0
             };
             await _accountService.CreateAsync(account);

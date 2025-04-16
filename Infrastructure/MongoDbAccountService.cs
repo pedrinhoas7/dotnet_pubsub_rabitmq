@@ -1,5 +1,5 @@
-﻿using signalr_backend.Models;
-using MongoDB.Driver;
+﻿using MongoDB.Driver;
+using signalr_backend.Domain.Entities;
 
 namespace signalr_backend.Infra;
 

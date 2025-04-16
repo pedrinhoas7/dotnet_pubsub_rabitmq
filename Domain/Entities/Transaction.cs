@@ -2,7 +2,7 @@
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
-namespace signalr_backend.Models
+namespace signalr_backend.Domain.Entities
 {
     public class Transaction
     {
