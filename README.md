@@ -99,5 +99,4 @@ dotnet run
 
 ## 👨‍💻 Autor
 
-Desenvolvido por **Pedro Henrique**  
-🔗[linkedin](https://www.linkedin.com/in/pedro-henrique-de-moraes-batista-7497a912b/)
+Desenvolvido com 💙 por Pedro Henrique
