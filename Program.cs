@@ -1,6 +1,6 @@
 
+using dotnet_pubsub_rabitmq.Infrastructure.Data;
 using dotnet_pubsub_rabitmq.Web.Hubs;
-using signalr_backend.Infra;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddSignalR();

@@ -1,6 +1,6 @@
-﻿using Microsoft.AspNetCore.SignalR;
+﻿using dotnet_pubsub_rabitmq.Infrastructure.Data;
+using Microsoft.AspNetCore.SignalR;
 using signalr_backend.Domain.Entities;
-using signalr_backend.Infra;
 
 namespace dotnet_pubsub_rabitmq.Web.Hubs;
 

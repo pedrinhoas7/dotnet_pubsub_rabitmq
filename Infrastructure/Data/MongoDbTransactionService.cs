@@ -1,7 +1,7 @@
 ﻿using MongoDB.Driver;
 using signalr_backend.Domain.Entities;
 
-namespace signalr_backend.Infra;
+namespace dotnet_pubsub_rabitmq.Infrastructure.Data;
 
 public class MongoDbTransactionService
 {
