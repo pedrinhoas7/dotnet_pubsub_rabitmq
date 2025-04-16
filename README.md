@@ -1,7 +1,7 @@
 
 # 💸 SignalR Backend - Transações Bancárias com .NET
 
-Este projeto é um backend desenvolvido em **.NET 8** com **SignalR**, voltado para simular **operações bancárias em tempo real** como depósitos e pagamentos, com base em uma arquitetura inspirada em **DDD (Domain-Driven Design)**.
+Este projeto é um backend desenvolvido em **.NET 8** com **SignalR**, voltado para simular **operações bancárias em tempo real** como depósitos e pagamentos**.
 
 ---
 
