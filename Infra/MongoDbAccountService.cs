@@ -1,7 +1,7 @@
 ﻿using dotnet_pubsub_rabitmq.Models;
 using MongoDB.Driver;
 
-namespace dotnet_pubsub_rabitmq.Services;
+namespace dotnet_pubsub_rabitmq.Infra;
 
 public class MongoDbAccountService
 {

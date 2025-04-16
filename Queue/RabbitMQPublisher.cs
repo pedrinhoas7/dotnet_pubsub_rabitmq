@@ -14,7 +14,7 @@ public class RabbitMQPublisher
         _configuration = configuration;
     }
 
-    public async Task PublishAsync(BankAccount dto, CancellationToken cancellationToken = default)
+    public async Task PublishTransactionAsync(Transaction dto, CancellationToken cancellationToken = default)
     {
         var factory = new ConnectionFactory
         {
