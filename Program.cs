@@ -1,8 +1,6 @@
-using dotnet_pubsub_rabitmq.Queue;
-using AutoMapper;
-using dotnet_pubsub_rabitmq.Models;
-using dotnet_pubsub_rabitmq.Infra;
-using dotnet_pubsub_rabitmq.WebSocket;
+
+using signalr_backend.Infra;
+using signalr_backend.WebSocket;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddSignalR();
@@ -10,8 +8,6 @@ builder.Services.AddSignalR();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddSingleton<RabbitMQPublisher>();
-builder.Services.AddHostedService<RabbitMQListener>();
 builder.Services.AddSingleton<MongoDbAccountService>();
 builder.Services.AddSingleton<MongoDbTransactionService>();
 

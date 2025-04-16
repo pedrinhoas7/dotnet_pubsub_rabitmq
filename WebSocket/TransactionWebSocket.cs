@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.SignalR;
-using dotnet_pubsub_rabitmq.Infra;
-using dotnet_pubsub_rabitmq.Models;
+using signalr_backend.Infra;
+using signalr_backend.Models;
 
-namespace dotnet_pubsub_rabitmq.WebSocket;
+namespace signalr_backend.WebSocket;
 
 public class TransactionWebSocket : Hub
 {

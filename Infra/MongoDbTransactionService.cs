@@ -1,7 +1,7 @@
-﻿using dotnet_pubsub_rabitmq.Models;
+﻿using signalr_backend.Models;
 using MongoDB.Driver;
 
-namespace dotnet_pubsub_rabitmq.Infra;
+namespace signalr_backend.Infra;
 
 public class MongoDbTransactionService
 {
